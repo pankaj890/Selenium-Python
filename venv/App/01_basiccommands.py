@@ -14,5 +14,5 @@ driver.find_element_by_xpath("//*[@id='Tabbed']/a/button").click()
 
 time.sleep(5)
 
-#driver.close() # Colse only one Tab
+#driver.close() # Close only one Tab
 driver.quit()   # Close the whole browser
