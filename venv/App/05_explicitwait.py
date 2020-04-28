@@ -33,7 +33,7 @@ driver.find_element_by_xpath("//*[@id='gcw-flights-form-hp-flight']/div[8]/label
 # explicit wait is applicable for a particular elements of webpage
 # Depends on condition instead of Time
 
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 10)   # Maximum wait for 10 seconds
 
 element = wait.until(EC.element_to_be_clickable((By.ID, "stopFilter_stops-0")))
 
